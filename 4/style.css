@@ -1,0 +1,41 @@
+.wrapper {
+  width: 80%;
+  min-width: 960px;
+  margin: 60px auto;
+}
+
+.row {
+  display: table;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.column {
+  display: table-cell;
+  position: relative;
+  width: 33%;
+  height: 100%;
+
+  font-family: 'Helvetica Neue', Arial;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.column .content {
+  margin: 0px 20px 30px;  
+  padding: 10px 15px 15px;  
+  background-color: #FFAE0E;  
+}
+
+.column::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: calc(100% - 20px * 2);
+  height: 30px;
+  margin: 0px 20px;
+  background-color: #499FDE;
+}
