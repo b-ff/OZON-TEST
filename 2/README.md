@@ -28,3 +28,4 @@ Balloon = {
 
 ---
 
+[Исходный код решения](https://github.com/b-ff/OZON-TEST/blob/master/2/balloons.js)
