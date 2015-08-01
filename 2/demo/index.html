@@ -1,0 +1,65 @@
+<!doctype html>
+<html ng-app="demo">
+  <head>
+    <title>Demo</title>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <div class="container">
+      <h1>Демострация решения</h1>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <p>Исходный шарик</p>
+            <ul>
+              <li>Размер: <code>{{ initialBalloon.size }}</code></li>
+              <li>Давление: <code>{{ initialBalloon.pressure }}</code></li>
+              <li>Увеличение давления: <code>{{ initialBalloon.inflateSpeed }}</code></li>
+            </ul>
+
+            <button class="btn btn-x-large btn-info" ng-click="initialBalloon.inflate()">Надуть шарик</button>
+          </div>
+ 
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <p>Шарик А</p>
+            <ul>
+              <li>Размер: <code>{{ customBalloonA.size }}</code></li>
+              <li>Давление: <code>{{ customBalloonA.pressure }}</code></li>
+              <li>Увеличение давления: <code>{{ customBalloonA.inflateSpeed }}</code></li>
+            </ul>
+
+            <button class="btn btn-x-large btn-info" ng-click="customBalloonA.inflate()">Надуть шарик</button>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <p>Шарик B</p>
+            <ul>
+              <li>Размер: <code>{{ customBalloonB.size }}</code></li>
+              <li>Давление: <code>{{ customBalloonB.pressure }}</code></li>
+              <li>Увеличение давления: <code>{{ customBalloonB.inflateSpeed }}</code></li>
+            </ul>
+
+            <button class="btn btn-x-large btn-info" ng-click="customBalloonB.inflate()">Надуть шарик</button>
+          </div>
+        </div>        
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          &copy; 2015, developed with love by <a href="http://b-ff.ru">B-ff</a>.
+        </div>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../balloons.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+
+  </body>
+</html>
