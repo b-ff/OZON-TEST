@@ -1,11 +1,11 @@
 {
-  "name": "OZON TEST #4 DEMO",
+  "name": "OZON TEST #2 DEMO",
   "version": "0.0.1",
   "homepage": "https://github.com/b-ff/OZON-TEST",
   "authors": [
     "Vyacheslav Biryukov <networmx128bit@gmail.com>"
   ],
-  "description": "Demonstration of solution for test #4",
+  "description": "Demonstration of solution for test #2",
   "main": "index.html",
   "license": "MIT",
   "ignore": [
