@@ -34,4 +34,4 @@
     
     })();
 
-[Смотреть код решения](https://github.com/b-ff/OZON-TEST/blob/master/1/script.js)
+[Исходный код решения](https://github.com/b-ff/OZON-TEST/blob/master/1/script.js)
